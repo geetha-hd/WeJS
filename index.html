@@ -1,36 +1,286 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quote generator</title>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="quote-container" id="quote-container">
-        <!--Quote-->
-        <div class="quote-text">
-            <i class="fas fa-quote-left"></i>
-            <span id="quote">What you are is what you have been.
-            What you'll be is what you do now.</span>
-        </div>
-        <!--author-->
-        <div class="quote-author">
-            <span id="author">Buddha</span>
-        </div>
-        <!--Buttons-->
-        <div class="button-container">
-            <button class="twitter-button" id="twitter" title="tweet this!">
-                <i class="fab fa-twitter"></i>
-            </button>
-            <button id="new-quote">New Quote</button>
-        </div>
-    </div>
+   <head>
+      <title>Aster CMI hospital</title>
 
-    <!--Script-->
-    <script src="script.js"></script>
-</body>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="css/stylesheet.css"/>
+   
+   </head>
+
+   <body>
+      <div class="my-12">
+         <div class="col-md-12" style="background-image: url(images/Banner_mage.png)">
+            <div class="container">
+               <div class="row">
+                  <div class="text-white text-center rgba-stylish-strong col-md-7">
+                     <div class="py-5 banner-main-content">
+                        <!-- Content -->
+                        <div class="head-content">
+                           <h6 class="orange-text"><span>Aster</span><br>CMI hospital </h6>
+                           <span>we'll treat you well</span>
+                        </div>
+                        <h2 class="card-title h2 py-2">ADULT & PAEDIATRIC BONE MARROW TRANSPLANT PROGRAMME</h2>
+                        <div class="mb-4 banner-sub-head"><span> Haematology | Oncology | Immunology </span>
+                        </div>
+                        <button type="button" class="btn banner-btn"> Book An Appointment</button>
+                     </div>
+                  </div>
+                  <div class="col-md-5 py-5">
+                     <form class="formgroup">
+                        <h2 class="pb-4">Enquire now</h2>
+                        <div class="form-group">
+                           <input type="name" class="form-control" id="email" placeholder="Name" name="email">
+                        </div>
+                        <div class="form-group">
+                           <input type="email" class="form-control" id="pwd" placeholder="Email" name="pswd">
+                        </div>
+                        <div class="form-group">
+                           <input type="phonenumber" class="form-control" id="pwd" placeholder="Phone number" name="pswd">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="form-control form-message" id="pwd" placeholder="Your message" name="pswd">
+                        </div>
+                        <div class="form-group form-check col-md-12">
+                           <span class="col-md-6"><input class="checkbox" type="checkbox" name="remember"><span class="capchatext">I'm not a robot</span></span>
+                           <span class="col-md-6"><img class="img-responsive" width="70px" height="70px" src="images/capcha.jpg"/></span>
+                        </div>
+                        <button type="submit" class="btn banner-btn">Submit</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-12">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-5">
+                     <div class="py-5">
+                        <img class="img-fluid" src="images/Bonemarrow.png"/>
+                     </div>
+                  </div>
+                  <div class="col-md-7 py-5">
+                     <h6 class="twopannelhead">Bone Marrow Transplant (BMT) better known as haematopoietic stem cell transplant(HSCT) as bone marrow cells are transplanted
+                     </h6>
+                     <ul class="twopannelpara">
+                        <li>Replacement of diseased or defective marrow with marrow from a healthy donor</li>
+                        <li>It is a long established fact that a reader will be distracted by the readable content of a page</li>
+                        <li> Medicines and in certain situations radiotherapy as well is given to get rid of diseased marrow and bone marrow cells from healthy donor is given to replace it.</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+         <div class="col-md-12">
+            <div class="container">
+                <h2 class="third-cards-comp-head">Doctors</h2>
+               <div class="row">
+                  <div class="col-md-6">
+                    <div class="card">
+                        <h3 class="card-head">Pediatric BMT</h3>
+                        <img class="card-img-top" src="images/BitmapCopy.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title-sub">Dr.Vijay Agarwal</h5>
+                          <span class="card-title-sub-para">MD, MRCP, Phd,CCT <br> Lead & Sr. Consultant - Medical Oncology & Haematology </span>
+                          <p class="card-text">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004..</p>
+                          <button type="button" class="btn btn-primary">Know More</button>
+                        </div>
+                      </div>
+                      
+                      <div class="card">
+                        <img class="card-img-top" src="images/BitmapCopy.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title-sub">Dr.Vijay Agarval</h5>
+                          <span class="card-title-sub-para">MD, MRCP, PhD.CCT <br> Lead & Sr. Consultant - Medical Oncology & Haematology </span>
+                          <p class="card-text">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004.</p>
+                          <button type="button" class="btn btn-primary">Know More</button>
+                        </div>
+                      </div>
+                 
+                  <div class="col-md-6"></div>
+                    <div class="card" >
+                        <h3 class="card-head">Adult BMT</h3>
+                        <img class="card-img-top" src="images/BitmapCopy.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title-sub">Dr.Vijay Agarval</h5>
+                          <span class="card-title-sub-para">MD, MRCP, Phd.CCT <br> Lead & Senior Consultant - Medical oncology & Haematology </span>
+                          <p class="card-text">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004.</p>
+                          <button type="button" class="btn btn-primary">Know More</button>
+                        </div>
+                      </div>
+                      
+                      <div class="card">
+                        <img class="card-img-top" src="images/BitmapCopy.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title-sub">Dr.Vijay Agarval</h5>
+                          <span class="card-title-sub-para">MD, MRCP, Phd.CCT <br> Lead & Senior Consultant - Medical oncology & Haematology </span>
+                          <p class="card-text">Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experience in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004.</p>
+                          <button type="button" class="btn btn-primary">Know More</button>
+                        </div>
+                      </div>
+                      
+                      </div>
+                      </div>
+                  </div>
+               
+               
+                  <div class="what-are-types"> <h4>What are the types of Bone Marrow Transplant?</h4></div>
+
+                    
+              
+            <div class="auto">
+            <p>
+               <ul><li>Autologous Bone Marrow Transplant - Marrow cells are collected from the patient’s own body and transfused back after high dose chemotherapy.</li>
+                  <li>Allogenic Bone Marrow Transplant (Matched Sibling Donor) – Replacement of diseased or defective marrow with marrow from a genetically (HLA) matched sibling donor.</li> 
+                  <li>Allogenic Bone Marrow Transplant (Matched Unrelated Donor) – Replacement of diseased or defective marrow with marrow from a genetically (HLA) matched donor obtained from bone marrow registries in India and abroad.
+                     <li>Haplo-Identical Bone Marrow Transplant - Replacement of diseased or defective marrow with marrow from the parent.</li>
+               <li> Umbilical cord Bone Marrow Transplant - Replacement of diseased or defective marrow with marrow from a genetically (HLA) matched umbilical cord donor obtained from umbilical cord registries in India and abroad.</li>
+            </ul>
+         </p>
+            </div>
+            
+                        
+              <p> The warning signs of Immune deficiency.</p>
+              <div class="warning-signs"></div>
+             
+             
+             
+             
+              <h6 class="grp"></h6>
+              <div class="row">
+               <div class="col-md-12 ">
+                 <div class="rectangle1">
+                     <img class="card-img-top1" src="images/Group2.png" alt="Card image cap">
+                     <p class="failure-to-thrive">Failure to thrive – not gaining weight and height as per the age norms
+                     </p>
+                     </div>
+                     
+                     <div class="rectangle1">
+                     <img class="card-img-top1" src="images/Group.png" alt="Card image cap">
+                     <p class="failure-to-thrive">Infections warranting multiple hospitalizations </p></div>
+                    
+                  
+                     <div class="rectangle1">
+                     <img class="card-img-top1" src="images/Group3.png" alt="Card image cap">
+                     <p class="failure-to-thrive">Requirement of intravenous antibiotics to clear infections
+                     </p></div>
+                     <div class="rectangle1">
+                        <img class="card-img-top1" src="images/Group4.png" alt="Card image cap">
+                        <p class="failure-to-thrive">2 or more episodes of pneumonia   </p></div>
+                        
+                        <div class="row">
+                        <div class="col-md-4 ">
+                        <div class="rectangle1">
+                           <img class="card-img-top1" src="images/Group5.png" alt="Card image cap">
+                           <p class="failure-to-thrive">Family history of death of children at young age due to immune deficiency
+                           </p></div>
+
+                           <div class="rectangle1">
+                              <img class="card-img-top1" src="images/Group6.png" alt="Card image cap">
+                              <p class="failure-to-thrive">Repeated episodes of diarrhea
+                              </p></div>
+
+                              <div class="rectangle1">
+                                 <img class="card-img-top1" src="images/Group7.png" alt="Card image cap">
+                                 <p class="failure-to-thrive">2 or more episodes of sinus infections within a year
+                                 </p></div>
+
+                                 <div class="rectangle1">
+                                    <img class="card-img-top1" src="images/Group8.png" alt="Card image cap">
+                                    <p class="failure-to-thrive">2 or more episodes of ear discharge
+                                    </p></div></div>
+                                    <div class="col-md-4">
+
+                                    <div class="rectangle1">
+                                       <img class="card-img-top1" src="images/Group9.png" alt="Card image cap">
+                                       <p class="failure-to-thrive">Repeated skin infections
+                                       </p></div>
+
+                                       <div class="rectangle1">
+                                          <img class="card-img-top1" src="images/Group10.png" alt="Card image cap">
+                                          <p class="failure-to-thrive">Repeated abscess formation (liver abscess, brain abscess)    </p></div>                                      
+                                       
+                     
+                       
+                      
+                      
+                     </div>
+
+                     </div>
+                     </div>
+                     </div>
+                     <div class="whatare"><h4>What are the conditions that requireBone Marrow Transplant?</h4></div>
+                        
+                     
+                     
+                     <div class="auto1">
+                        <p>
+                           <ul><li>BMT is the treatment of choice for blood disorders like Thalassemia, Sickle Cell anemia, bone marrow failure syndromes like Aplastic anemia, serious immune deficiencies and certain genetic metabolic disorders.</li>
+                              <li> It is also used to treat high risk cancers like some cases of Acute Lymphoblastic Leukemia, Acute Myeloid Leukemia, Multiple Myeloma and solid tumours like Neuroblastoma, Ewings Sarcoma and certain relapsed cancers like Lymphomas</li> 
+                           
+                        </ul>
+                     </p>
+                        </div>
+
+
+                        <div class="col-md-12">
+                           <div class="container">
+                               <h2 class="test">Testimonials</h2>
+                              <div class="row">
+                                 <div class="col-md-6">
+                                   <div class="card">
+                                    
+                                    <img class="card-img" src="images/jon1.png" alt="Card image cap" Dr.Jon Doe> <br>software Engineer.
+                                    <div class="card-body"
+                                    <p> class="card-tex">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                    <button type="button" class="btn btn-primary">Know More</button>
+                                  </div>
+                                     </div>
+                                     
+                                     <div class="card">
+                                       <img class="card-img" src="images/jon1.png" alt="Card image cap" Dr.John Doe ><br>software Engineer
+                                       <div class="card-body"
+                                         <span><h6><b>software engineer </b> </h6></span>
+                                         <p class="card-tex">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                         <button type="button" class="btn btn-primary">Know More</button>
+                                       </div>
+                                     </div>
+                                
+                            
+                                   <div class="card" >
+                                    <img class="card-img" src="images/jon1.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title-sub">Dr.Jhon Doe</h5>
+                                      <span><h6><b>software engineer </b> </h6></span>
+                                      <p class="card-tex">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                      <button type="button" class="btn btn-primary">Know More</button>
+                                    </div>
+                                       
+                                       </div>
+                                     </div>
+                                     
+                                     
+                                     
+                                     </div>
+                                     </div>
+                                 </div>
+                     
+                     
+                     
+                  </div>
+                     
+                     
+         
+         
+         
+      </div>
+   </body>
 </html>
